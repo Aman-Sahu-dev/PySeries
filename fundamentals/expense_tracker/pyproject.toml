@@ -15,3 +15,10 @@ expense-tracker = "expense_tracker:main"
 [build-system]
 requires = ["uv_build>=0.13.9,<0.14.0"]
 build-backend = "uv_build"
+
+[tool.pyright]
+extraPaths = ["src"]
+
+[tool.basedpyright]
+extraPaths = ["src"]
+
